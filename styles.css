@@ -55,3 +55,96 @@ img:hover {
     transform: scale(1.03);
     transition: 0.3s;
 }
+
+/* dreamy pink and blue background */
+body {
+    background: linear-gradient(#fae1dd, #d6eeff);
+    background-attachment: fixed;
+}
+
+/* softer title */
+h1 {
+    color: #ffa5c5;
+    text-shadow: 2px 2px 5px white;
+}
+
+/* baby blue subtitles */
+h2 {
+    color: #a9d6e5;
+}
+
+/* cute section headings */
+h3 {
+    color: #ffa5c5;
+}
+
+/* softer image shadows */
+img {
+    box-shadow: 3px 5px 12px #d6c5d0;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.quote img {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: none;
+}
+
+.quote p {
+    text-align: center;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px;
+}
+
+.intro img {
+    width: 250px;
+}
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    display: inline-block;
+    background-color: #d6eeff;
+    padding: 10px 18px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+section li:hover {
+    background-color: #ffd6e7;
+}
+.quote img {
+    width: 250px;
+    transform: rotate(-8deg);
+    border: none;
+    box-shadow: none;
+}
+
+.quote img:hover {
+    transform: rotate(0deg) scale(1.1);
+}
+.gallery img:nth-child(odd) {
+    transform: rotate(-3deg);
+}
+
+.gallery img:nth-child(even) {
+    transform: rotate(3deg);
+}
+
+.gallery img:hover {
+    transform: rotate(0deg) scale(1.05);
+}
